@@ -1,0 +1,204 @@
+
+body, nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* fonte */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* cabecalho */
+
+header {
+    background-color: #333;
+    display: flex;
+    height: 70px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, nav a, .btn-hero:hover{
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul :hover{
+    font-size: 20px;
+}
+nav li {
+    margin: 0 10px;
+}
+
+/* 1 sessão */
+
+.topicos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.hero {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text, footer, #precos p, .about, .preco, h2 {
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn-hero {
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-hero:hover {
+   padding:15px 25px ;
+    transition: all 1s;
+}
+
+/* SOBRE O CURSO */
+
+.about{
+    padding: 50px 20px;
+    background-color: #f2f2f2;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.material{
+    width: 50px;
+    height: 50px;
+}
+.about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+h2{
+    padding: 10px 20px;
+    font-size: 30px;
+}
+.sobre{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+#sobreocurso li:hover{
+    font-size: 25px;
+    transition: all 1s;
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 20px;
+    width: 300px;
+}
+
+.about li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+/* Preço */
+.pricing {
+    padding: 50px 20px;
+    background-color: #e6e6e6;
+}
+
+
+
+.preco{
+    width: 450px;
+    height: 150px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+}
+
+.precos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+.imgm :hover{
+    width:35px;
+    height: 35px;
+}
+
+/* Botão incresver-se */
+.btn-pricing {
+    background-color: green ;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-pricing:hover {
+    background-color: #fff;
+    color: #333;
+    transition: all 1s;
+}
+
+/* rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
